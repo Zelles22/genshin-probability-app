@@ -787,7 +787,7 @@ def run_streamlit() -> None:
         raise RuntimeError("Streamlit n'est pas installé. Lance d'abord : pip install streamlit")
 
     st.set_page_config(
-        page_title="Genshin Wish Calculator / Calculateur Genshin",
+        page_title="Genshin Probability Calculator",
         page_icon=get_favicon_image(),
         layout="wide",
     )
